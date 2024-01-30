@@ -4,8 +4,8 @@ dfx deploy --ic --argument "(
     subaccount = opt blob \"00000000000000000000000000000000\";
   },
   record {
-    name = \"Test Doctoken\";
-    symbol = \"TESTDT\";
+    name = \"Vit Doctoken\";
+    symbol = \"VITDOC\";
     royalties = opt 0;
     royaltyRecipient = opt record {
       owner = principal\"2vxsx-fae\";
